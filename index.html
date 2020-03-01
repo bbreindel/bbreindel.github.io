@@ -5,10 +5,18 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-  $("p").click(function(){
+  $("p").(function(){
     $(this).hide();
   });
 });
+
+$(window).scroll(function(){
+
+    window.location = $('div').next();
+
+});
+
+
 </script>
 </head>
 <body>
