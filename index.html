@@ -2,34 +2,7 @@
 
 <html>
 <head>
-	<script type="text/javascript" src="fullpage.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-	
-	new fullpage('#fullpage', {
-	//options here
-	autoScrolling:true,
-	scrollHorizontally: true
-});
-
-//methods
-fullpage_api.setAllowScrolling(false);
-	
-$(document).ready(function() {
-	$('#fullpage').fullpage({
-		//options here
-		autoScrolling:true,
-		scrollHorizontally: true
-	});
-
-	//methods
-	$.fn.fullpage.setAllowScrolling(false);
-});
-});
-
-
-
-</script>
+<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
 </head>
 <body>
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/fullpage.js/dist/fullpage.min.css">
@@ -49,4 +22,6 @@ $(document).ready(function() {
 	
 	</div>
 </body>
+	<script type="text/javascript" src="http://expansionscollective.com/testscripts/jquery.fullPage.js"></script>
+<script> $(document).ready(function() { $('#fullpage').fullpage(); });</script>
 </html>
