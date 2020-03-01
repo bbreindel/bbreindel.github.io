@@ -2,7 +2,19 @@
 
 <html>
 <link rel="stylesheet" type="text/css" href="fullpage.css" />
-<script type="text/javascript" src="fullpage.js"></script>
+<script type="text/javascript" src="fullpage.js">
+  $(document).ready(function() {
+	$('#fullpage').fullpage({
+		//options here
+		autoScrolling:true,
+		scrollHorizontally: true
+	});
+
+	//methods
+	$.fn.fullpage.setAllowScrolling(false);
+});
+  
+  </script>
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
