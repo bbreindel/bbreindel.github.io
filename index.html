@@ -1,34 +1,23 @@
 <!DOCTYPE html>
 
 <html>
-<link rel="stylesheet" type="text/css" href="fullpage.css" />
-<script type="text/javascript" src="fullpage.js">
-  $(document).ready(function() {
-	$('#fullpage').fullpage({
-		//options here
-		autoScrolling:true,
-		scrollHorizontally: true
-	});
-
-	//methods
-	$.fn.fullpage.setAllowScrolling(false);
-	  
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
 });
-	
-	new fullpage('#fullpage', {
-	//options here
-	autoScrolling:true,
-	scrollHorizontally: true
-});
-
-//methods
-fullpage_api.setAllowScrolling(false);
-  
-  </script>
+</script>
+</head>
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
 <div id="fullpage">
+	<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
   <div  class="section" style="background-color:red; height:1200px;"><h2>This is a test</h2></div>
   <div  class="section" style="background-color:brown; height:1200px;"><h2>This is a test</h2></div>
   <div  class="section" style="background-color:blue; height:1200px;"><h2>This is a test</h2></div>
