@@ -22,5 +22,14 @@
 	</div>
 </body>
 	<script type="text/javascript" src="http://www.williambreindel.com/fullpage.js"></script>
-<script> $(document).ready(function() { $('#fullpage').fullpage(); });</script>
+<script> 
+	$(document).ready(function() {
+		$('#fullpage').fullpage({
+		//options here
+		autoScrolling:true,
+		scrollHorizontally: true
+	});
+		$.fn.fullpage.setAllowScrolling(false);
+	});
+</script>
 </html>
