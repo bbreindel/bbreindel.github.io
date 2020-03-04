@@ -32,3 +32,12 @@
 #mainPageSectionSix{
     background-color:green;
 }
+
+form{
+ background-color:purple;
+ border:4px;
+ width:40%;
+ height:30%;
+ align:center;
+ 
+}
