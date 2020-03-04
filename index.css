@@ -1,4 +1,6 @@
-
+body{
+ text-align:center;
+}
  
  nav.topMenu{
     background-color:grey;
@@ -36,8 +38,10 @@
 form{
  background-color:purple;
  border:4px;
- width:40%;
- height:30%;
- align:center;
+ width:30%;
+ border-style:solid;
+ border-color:black;
+ text-align:center;
+ display:inline-block;
  
 }
