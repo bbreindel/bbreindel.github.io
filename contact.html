@@ -11,11 +11,16 @@
 	<nav class="topMenu" role="navigation">
 	this is a menu
 	</nav>
+	<br><br><br><br>
   <form id="contactForm" action="/action_page.php"  method="post">
-  <input class="contactMeFormButton" id="firstNameFormButton"  name="firstNameFormButton" type="text" placeholder="First Name"></input>
-  <input class="contactMeFormButton" id="lastNameFormButton"  name="lastNameFormButton" type="text" placeholder="Last Name"></input>
-  <input class="contactMeFormButton" id="emailAddressFormButton" name="emailAddressFormButton" type="email" placeholder="email address"></input>
-  <input class="contactMeFormButton" id="messageTextFormButton" name="messageTextFormButton" type="textbox"></input>
+  <label for="firstNameFormButton">First Name: </label><br>
+  <input class="contactMeFormButton" id="firstNameFormButton"  name="firstNameFormButton" type="text" placeholder="First Name"></input><br>
+	<label for="lastNameFormButton">Last Name: </label><br>
+  <input class="contactMeFormButton" id="lastNameFormButton"  name="lastNameFormButton" type="text" placeholder="Last Name"></input><br>
+	<label for="emailAddressFormButton">Email Address: </label><br>
+  <input class="contactMeFormButton" id="emailAddressFormButton" name="emailAddressFormButton" type="email" placeholder="email address"></input><br>
+	<label for="messageTextFormButton">Message: </label><br>
+  <input class="contactMeFormButton" id="messageTextFormButton" name="messageTextFormButton" type="textbox"></input><br><br>
   
   <input class="contactMeFormButton" id="submitButtonFormButton" type ="submit">Press to Contact me!</input>
   </form>
