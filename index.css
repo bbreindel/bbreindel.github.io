@@ -13,13 +13,10 @@ html, body{
     text-align:center;
  }
 
-#picDiv{
- height:100%;
-}
 
 img#myMainPagePic{
- height:auto;
- width:50%;
+ height:60%;
+ width:auto;
 }
 
 #mainPageSectionOne{
@@ -27,7 +24,10 @@ img#myMainPagePic{
 }
 
 #mainPageSectionTwo{
-    background-color:teal;
+ background-color:teal;
+ margin-left: 15%;
+ margin-right: 15%;
+ 
 }
 
 #mainPageSectionThree{
