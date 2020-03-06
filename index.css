@@ -88,12 +88,16 @@ input{
 
 #contactMeMid{
  margin-left:10%;
+ margin-right: 10%;
  height:70%;
  width:80%;
  display: flex;
  justify-content: center;
  align-items: center;
- background-color:black;
+ border-left: thick solid; 
+ border-right: thick solid;
+ border-width: 10px;
+ border-color: tan;
 }
 
 #contactMeFoot{
