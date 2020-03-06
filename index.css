@@ -79,22 +79,27 @@ input{
 
 #contactMeTop{
  height:25%;
- text-align:center;
  background-color:pink;
- vertical-align: middle;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 #contactMeMid{
  margin-left:10%;
  height:70%;
  width:80%;
- text-align:center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
  background-color:black;
 }
 
 #contactMeFoot{
  height:5%;
- text-align:center;
+ display: flex;
+ justify-content: center;
+ align-items: center;text-align:center;
  background-color:tan;
 }
 
