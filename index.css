@@ -150,11 +150,12 @@ tr.messageRow{
 
 #sectionThreeTop{
  Height:50%;
- backgroundcolor:green;
+ background-color:green;
  vertical-align:top;
 }
+
 #sectionThreeBottom{
  Height:50%;
- backgroundcolor:antiquewhite;
+ background-color:antiquewhite;
  vertical-align:bottom;
 }
