@@ -46,6 +46,8 @@ form{
  display:inline-block;
  padding: 50px;
  border-radius:25px;
+ top:40%;
+ left:40%;
  
 }
 
@@ -75,20 +77,21 @@ input{
 }
 
 #contactMeTop{
- height:20%;
+ height:25%;
  text-align:center;
  background-color:pink;
 }
 
 #contactMeMid{
+ left:10%;
  height:70%;
- width:60%;
+ width:80%;
  text-align:center;
  background-color:black;
 }
 
 #contactMeFoot{
- height:auto;
+ height:5%;
  text-align:center;
  background-color:tan;
 }
