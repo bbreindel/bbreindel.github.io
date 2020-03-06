@@ -133,6 +133,10 @@ table{
  height:100%
 }
 
+tr {
+ height: 5%;
+}
+
 tr.messageTextFormButton{
  height:100%;
 }
