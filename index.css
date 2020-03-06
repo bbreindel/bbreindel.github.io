@@ -147,3 +147,14 @@ tr.messageRow{
  vertical-align:top;
  height:70%;
 }
+
+#section3Top{
+ Height:50%;
+ backgroundcolor:green;
+ vertical-align:top;
+}
+#section3Bottom{
+ Height:50%;
+ backgroundcolor:antiquewhite;
+ vertical-align:bottom;
+}
