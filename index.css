@@ -13,7 +13,7 @@ html, body{
     text-align:center;
  }
 
-.myMainPagePic{
+img#myMainPagePic{
  height:100%;
  width:50%;
 }
