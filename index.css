@@ -135,10 +135,10 @@ table{
  height:100%
 }
 
-tr {
+tr.nonMessageRow {
  height: 5%;
 }
 
-.messageRow{
+tr.messageRow{
  height: 100%;
 }
