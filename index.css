@@ -13,8 +13,12 @@ html, body{
     text-align:center;
  }
 
-img#myMainPagePic{
+#picDiv{
  height:100%;
+}
+
+img#myMainPagePic{
+ height:auto;
  width:50%;
 }
 
