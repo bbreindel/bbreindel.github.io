@@ -104,7 +104,7 @@ input.submitButtonFormButton{
  display: flex;
  justify-content: center;
  align-items: center;
- animation: color-me-in 5s;
+ animation: color-me-in 5s infinite;
 }
 
 #contactMeMid{
