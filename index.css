@@ -2,7 +2,6 @@ html, body{
  text-align:center;
  height:100%;
  margin:0%;
- animation: color-me-in 5s;
 }
 
 @keyframes color-me-in {
@@ -105,6 +104,7 @@ input.submitButtonFormButton{
  display: flex;
  justify-content: center;
  align-items: center;
+ animation: color-me-in 5s;
 }
 
 #contactMeMid{
