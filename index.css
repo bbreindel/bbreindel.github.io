@@ -83,6 +83,9 @@ input{
  display: flex;
  justify-content: center;
  align-items: center;
+ border-bottom: thick solid;
+ border-width: 10px;
+ border-color: blue;
 }
 
 #contactMeMid{
