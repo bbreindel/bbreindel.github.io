@@ -142,3 +142,7 @@ tr.nonMessageRow {
 tr.messageRow{
  height: 100%;
 }
+
+.fp-tableCell{
+ vertical-align:top;
+}
