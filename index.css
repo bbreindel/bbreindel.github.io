@@ -113,9 +113,15 @@ input{
  width:100%
 }
 
+.messageTextFormButton{
+ width:100%;
+ height: 50%;
+}
+
 td{
  text-align:center;
 }
+
 table{
  width:100%;
 }
