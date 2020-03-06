@@ -72,3 +72,25 @@ input{
 :-ms-input-placeholder {  
    text-align: center; 
 }
+
+#contactMeTop{
+ height:20%;
+ text-align:center;
+ background-color:pink;
+ padding-top:5%;
+}
+
+#contactMeMid{
+ height:70%;
+ width:60%
+ text-align:center;
+ background-color:black;
+ padding-top:5%;
+}
+
+#contactMeFoot{
+ height:10%;
+ text-align:center;
+ background-color:tan;
+ padding-top:5%;
+}
