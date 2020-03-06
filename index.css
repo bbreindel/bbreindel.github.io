@@ -2,8 +2,23 @@ html, body{
  text-align:center;
  height:100%;
  margin:0%;
+ animation: color-me-in 5s;
 }
- 
+
+@keyframes color-me-in {
+  0% {
+    background: orange;
+  }
+  /* Adding a step in the middle */
+  50% {
+    background: blue;
+  }
+  100% {
+    background: black;
+  }
+}
+
+
 nav.topMenu{
     background-color:grey;
     width:100%;
@@ -106,6 +121,13 @@ input.submitButtonFormButton{
  border-width: 10px;
  border-color: tan;
  background-color: antiquewhite;
+ transition: all 3s;
+}
+
+#contactMeMid:hover{
+
+ background-color: orange;
+
 }
 
 #contactMeFoot{
