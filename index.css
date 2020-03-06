@@ -116,6 +116,7 @@ input{
 .messageTextFormButton{
  width:100%;
  height: 50%;
+ resize: none;
 }
 
 td{
