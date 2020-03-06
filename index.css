@@ -15,7 +15,7 @@ nav.topMenu{
 
 
 img#myMainPagePic{
- height:60%;
+ height:100%;
  width:auto;
 }
 
@@ -145,4 +145,5 @@ tr.messageRow{
 
 #imageDiv{
  vertical-align:top;
+ height:70%;
 }
