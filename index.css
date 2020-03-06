@@ -80,10 +80,11 @@ input{
  height:25%;
  text-align:center;
  background-color:pink;
+ vertical-align: middle;
 }
 
 #contactMeMid{
- left:10%;
+ margin-left:10%;
  height:70%;
  width:80%;
  text-align:center;
@@ -97,7 +98,7 @@ input{
 }
 
 .contactMeFormButton{
- width:40%
+ width:100%
 }
 
 td{
