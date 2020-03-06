@@ -17,20 +17,20 @@ a<!DOCTYPE html>
 	  
 	  
 	  <table>
-		  <tr>
+		  <tr id="nonMessageRow">
 		  <td>
         		<label for="nameFormButton">Name: </label></td>
 		  <td>
 			  <input class="contactMeFormButton" id="nameFormButton" name="nameFormButton" type="text" placeholder="Name">
 			  </td>
 		  </tr>
-        	  <tr>
+        	  <tr id="nonMessageRow">
 			<td>
   			<label for="companyNameFormButton">Company Name: </label></td>
 			  <td>
   			<input class="contactMeFormButton" id="companyNameFormButton" name="companyNameFormButton" type="text" placeholder="Company Name"></td>
 		  </tr>
-		  <tr><td style="text-align:center">
+		  <tr id="nonMessageRow"><td style="text-align:center">
 			  <label for="emailAddressFormButton" required>Email Address: </label></td>
 			<td> 
  			 <input class="contactMeFormButton" id="emailAddressFormButton" name="emailAddressFormButton" type="email" placeholder="email address"></input>
@@ -40,7 +40,7 @@ a<!DOCTYPE html>
 		<tr id="messageRow"><td colspan="2" >
   			<textarea class="messageTextFormButton" id="messageTextFormButton" name="messageTextFormButton"></textarea></td></tr>
 	 
-	  <tr><td colspan="2">
+	  <tr id="nonMessageRow"><td colspan="2">
   			<input class="contactMeFormButton" id="submitButtonFormButton" type ="submit" value="Press to Contact me!"></input></td></tr></table>
  	 </form>
 	</div>
