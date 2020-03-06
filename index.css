@@ -40,15 +40,14 @@ html, body{
 form{
  background-color:cornsilk;
  border:4px;
- width:30%;
+ width:40%;
+ height:40%;
  border-style:solid;
  border-color:black;
  text-align:center;
  display:inline-block;
  padding: 50px;
  border-radius:25px;
- top:40%;
- left:40%;
  
 }
 
@@ -79,13 +78,12 @@ input{
 
 #contactMeTop{
  height:25%;
- background-color:pink;
  display: flex;
  justify-content: center;
  align-items: center;
  border-bottom: thick solid;
  border-width: 10px;
- border-color: blue;
+ border-color: tan;
 }
 
 #contactMeMid{
@@ -112,4 +110,7 @@ input{
 
 td{
  text-align:center;
+}
+table{
+ width:100%;
 }
