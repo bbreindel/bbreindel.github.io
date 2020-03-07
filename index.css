@@ -33,12 +33,11 @@ a{
  color:white;
  text-decoration:none;
  font-family:cursive;
- text-shadow: 2px 2px 4px black;
  position:absolute;
 }
 
 a:hover{
- font-size:larger;
+ opacity: 0.5;
 }
 
 #menuHomeLink{
@@ -92,7 +91,7 @@ form{
  display:inline-block;
  padding: 50px;
  border-radius:25px;
- 
+ box-shadow:11px 11px 20px 0px black;
 }
 
 
@@ -147,6 +146,10 @@ input{
 
 .contactMeFormButton{
  width:100%
+}
+
+.contactMeFormButton:hover {
+    box-shadow: 2px 2px 4px #000000;
 }
 
 .messageTextFormButton{
