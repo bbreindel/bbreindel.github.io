@@ -111,9 +111,11 @@ input.submitButtonFormButton{
  height:5%;
  display: flex;
  justify-content: center;
- align-items: center;text-align:center;
+ align-items: center;
+ text-align:center;
  background-color:grey;
  color: white;
+ margin-top: 5%;
 }
 
 .contactMeFormButton{
