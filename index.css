@@ -2,9 +2,9 @@ html, body{
  text-align:center;
  height:100%;
  margin:0%;
- background:url('blackClouds.jpg');
- animation:cloud_animation 75s linear infinate;
 }
+
+
 
 @keyframes cloud_animation{
   0% {
@@ -12,7 +12,7 @@ html, body{
   }
   /* Adding a step in the middle */
   100% {
-    background-position:-5997 -4000;
+    background-position:100% 100%;
   }
 }
 
