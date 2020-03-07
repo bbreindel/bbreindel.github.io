@@ -14,7 +14,6 @@ html, body{
  margin:0;
  background: url('blackClouds.jpg');
  background-size:cover;
-
 }
 
 .cloud{
@@ -25,7 +24,16 @@ html, body{
  height:100%;
  margin:0;
  background: url('cloud.png');
-
+ animation-name: cloud_animation;
+ animation-direction: alternate;
+ animation-duration: 90s;
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
+ opacity:0.75;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
 }
 
 @keyframes cloud_animation{
