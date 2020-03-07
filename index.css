@@ -79,8 +79,9 @@ input{
  height:20px;
 }
 
-input.submitButtonFormButton{
+#submitButtonFormButton{
  width:50%;
+ background-color:gainsboro;
 }
 
 ::-webkit-input-placeholder {
