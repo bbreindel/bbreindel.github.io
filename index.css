@@ -45,7 +45,7 @@ img#myMainPagePic{
 }
 
 #mainPageSectionThree{
-    background-color:lightgrey;
+    background-color:white;
 }
 
 #mainPageSectionFour{
@@ -152,7 +152,7 @@ tr.messageRow{
 
 #sectionThreeTop{
  Height:50%;
- background-color:green;
+ background-color:lightgrey;
  vertical-align:top;
 }
 
