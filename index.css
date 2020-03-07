@@ -83,10 +83,14 @@ a:hover{
  font-size: 2em;
  display: flex;
  flex-direction: column;
+ text-align:center;
 }
 
 .frontPageNameH{
  margin:unset;
+ background-color: black;
+ width: fit-content;
+ align-self: center;
 }
 
 img#myMainPagePic{
