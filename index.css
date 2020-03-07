@@ -169,6 +169,7 @@ a{
  color:white;
  text-decoration:none;
  font-family:cursive;
+ text-shadow: 2px 2px 4px black;
 }
 
 #menuHomeLink{
