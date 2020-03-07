@@ -38,14 +38,14 @@ img#myMainPagePic{
 }
 
 #mainPageSectionTwo{
- background-color:teal;
+ background-color:lightblue;
  margin-left: 15%;
  width: 70%;
  
 }
 
 #mainPageSectionThree{
-    background-color:blue;
+    background-color:lightgrey;
 }
 
 #mainPageSectionFour{
@@ -61,7 +61,7 @@ img#myMainPagePic{
 }
 
 form{
- background-color:cornsilk;
+ background-color:lightblue;
  border:4px;
  width:50%;
  height:50%;
@@ -106,35 +106,14 @@ input.submitButtonFormButton{
  align-items: center;
 }
 
-#contactMeMid{
- margin-left:10%;
- margin-right: 10%;
- height:70%;
- width:80%;
- display: flex;
- justify-content: center;
- align-items: center;
- border-left: thick solid; 
- border-right: thick solid;
- border-top: thick solid;
- border-width: 10px;
- border-color: tan;
- background-color: antiquewhite;
- transition: all 3s;
-}
-
-#contactMeMid:hover{
-
- background-color: orange;
-
-}
 
 #contactMeFoot{
  height:5%;
  display: flex;
  justify-content: center;
  align-items: center;text-align:center;
- background-color:tan;
+ background-color:grey;
+ color: white;
 }
 
 .contactMeFormButton{
@@ -179,4 +158,10 @@ tr.messageRow{
  Height:50%;
  background-color:antiquewhite;
  vertical-align:bottom;
+}
+
+a{
+ color:white;
+ text-decoration:none;
+ font-family:cursive;
 }
