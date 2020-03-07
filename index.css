@@ -77,6 +77,18 @@ a:hover{
  left:66%;
 }
 
+#frontPageName{
+ padding-top: 20%;
+ color: white;
+ font-size: 2em;
+ display: flex;
+ flex-direction: column;
+}
+
+.frontPageNameH{
+ margin:unset;
+}
+
 img#myMainPagePic{
  height:90%;
 }
