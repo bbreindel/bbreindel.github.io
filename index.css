@@ -29,6 +29,25 @@ nav.topMenu{
   justify-content:space-around;
  }
 
+a{
+ color:white;
+ text-decoration:none;
+ font-family:cursive;
+ text-shadow: 2px 2px 4px black;
+ position:absolute;
+}
+
+a:hover{
+ font-size:larger;
+}
+
+#menuHomeLink{
+ left:33%;
+}
+
+#menuContactLink{
+ left:66%;
+}
 
 img#myMainPagePic{
  height:100%;
@@ -84,6 +103,11 @@ input{
 #submitButtonFormButton{
  width:50%;
  background-color:gainsboro;
+}
+
+#submitButtonFormButton:hover{
+ color:white;
+ background-color:lightslategrey;
 }
 
 ::-webkit-input-placeholder {
@@ -165,22 +189,3 @@ tr.messageRow{
  vertical-align:bottom;
 }
 
-a{
- color:white;
- text-decoration:none;
- font-family:cursive;
- text-shadow: 2px 2px 4px black;
- position:absolute;
-}
-
-a:hover{
- font-size:larger;
-}
-
-#menuHomeLink{
- left:33%;
-}
-
-#menuContactLink{
- left:66%;
-}
