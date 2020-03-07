@@ -2,8 +2,20 @@ html, body{
  text-align:center;
  height:100%;
  margin:0%;
+
 }
 
+.container{
+ position: absolute;
+ top:0;
+ left:0;
+ width:100%;
+ height:100vh;
+ margin:0;
+ background: url('blackClouds.jpg');
+ background-size:cover;
+
+}
 
 
 @keyframes cloud_animation{
