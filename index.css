@@ -169,9 +169,11 @@ input{
  display: flex;
  justify-content: center;
  align-items: center;
- color: white;
 }
 
+h1#successfulMessage{
+  color: white;
+}
 
 #contactMeFoot{
  height:5%;
