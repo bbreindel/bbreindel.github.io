@@ -108,7 +108,8 @@ a:hover{
 }
 
 img#myMainPagePic{
- height:90%;
+ width: 50%;
+ padding-top: 20%;
 }
 
 #mainPageSectionTwo{
