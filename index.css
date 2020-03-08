@@ -155,9 +155,10 @@ input{
 }
 
 .section3Section{
- height:70%;
- display:flex;
- width:20%;
+    height: 70%;
+    display: inline-flex;
+    width: 20%;
+    border: solid black;
 }
 
 #submitButtonFormButton{
