@@ -71,6 +71,8 @@ nav.topMenu{
   text-align:center;
   display:flex;
   justify-content:space-around;
+  font-family: 'Source Serif Pro', serif;
+  font-family: 'Lato', sans-serif;
  }
 
 a{
