@@ -154,6 +154,12 @@ input{
  height:20px;
 }
 
+.section3Section{
+ height:70%;
+ display:flex;
+ width:20%;
+}
+
 #submitButtonFormButton{
  width:50%;
  background-color:gainsboro;
