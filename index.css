@@ -12,8 +12,15 @@ html, body{
  width:100%;
  height:100vh;
  margin:0;
- background: url('roadRain.jpg');
  background-size:cover;
+}
+
+#mainMenuContainer{
+ background: url('roadRain.jpg');
+}
+
+#contactContainer{
+ background: url('fall3.jpg');
 }
 
 .cloud{
@@ -29,11 +36,18 @@ html, body{
  animation-duration: 90s;
  animation-iteration-count: infinite;
  animation-timing-function: linear;
- opacity:0.50;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
  background-size: cover;
+}
+
+ #mainMenuCloud{
+   opacity:0.50;
+}
+
+ #contactCloud{
+  
 }
 
 @keyframes cloud_animation{
