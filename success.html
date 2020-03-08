@@ -9,47 +9,13 @@
 </head>
 <body>
 	<div class="container">
-		<div class="cloud">
-	<nav class="topMenu" role="navigation">
-		 <div></div>
-		<a href="http://www.williambreindel.com" id="menuHomeLink">Home</a>
-		<a href="http://www.williambreindel.com/contact.html" id="menuContactLink">Contact Me</a>
-		 <div></div>
-	</nav>
-		<div id="contactMeTop"><h1 id="successfulMessage">Message Sent Successfully!</h1></div>
+		<form method="post" target="https://forms.un-static.com/forms/543b64b49519d2f2194edbb46daa5b9fd80c06c8">
+  <input type="text" name="name" placeholder="Enter your name" required>
+  <input type="email" name="email" placeholder="Enter your e-mail address" required>
+  <textarea name="message" cols="40" rows="15"></textarea>
+  <button type="submit">Send</button>
+</form>
 
-  <form id="contactForm" action="https://forms.un-static.com/forms/543b64b49519d2f2194edbb46daa5b9fd80c06c8"  method="post" enctype="text/plain">
-	  
-	  
-	  <table>
-		  <tr class="nonMessageRow">
-		  <td>
-        		<label for="nameFormButton">Name: </label></td>
-		  <td>
-			  <input class="contactMeFormButton" id="nameFormButton" name="nameFormButton" type="text" placeholder="Name">
-			  </td>
-		  </tr>
-        	  <tr class="nonMessageRow">
-			<td>
-  			<label for="companyNameFormButton">Company Name: </label></td>
-			  <td>
-  			<input class="contactMeFormButton" id="companyNameFormButton" name="companyNameFormButton" type="text" placeholder="Company Name"></td>
-		  </tr>
-		  <tr class="nonMessageRow"><td style="text-align:center">
-			  <label for="emailAddressFormButton" required>Email Address: </label></td>
-			<td> 
- 			 <input class="contactMeFormButton" id="emailAddressFormButton" name="emailAddressFormButton" type="email" placeholder="Email Address"></input>
-		  </tr>
-		  <tr class="nonMessageRow"><td colspan="2">
-			<label for="messageTextFormButton">Message: </label></td></tr>
-		<tr class="messageRow"><td colspan="2" >
-  			<textarea class="messageTextFormButton" id="messageTextFormButton" name="messageTextFormButton"></textarea></td></tr>
-	 
-	  <tr id="nonMessageRow"><td colspan="2">
-  			<input id="submitButtonFormButton" type ="submit" value="Press to send"></input></td></tr></table>
- 	 </form></div>
-
-<div id="contactMeFoot">copyright 2020 -  William Breindel</div>
 </div>
 </body>
 </html>
