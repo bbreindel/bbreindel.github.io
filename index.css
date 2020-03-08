@@ -78,6 +78,7 @@ a{
  text-decoration:none;
  position:absolute;
  font-family: 'Source Serif Pro', serif;
+ top:10%;
 }
 
 a:hover{
