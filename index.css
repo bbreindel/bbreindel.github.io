@@ -112,6 +112,9 @@ img#myMainPagePic{
  width: 50%;
 }
 
+img.section3Icon{
+ width: 25%;
+}
 
 #mainPageSectionThree{
  background-color:lightgrey;
@@ -220,15 +223,27 @@ h1#successfulMessage{
  width:100%;
  height: 100%;
  resize: none;
-}
+}section3TableColumn
 
 td{
  text-align:center;
-}
+} 
+
+td.section3TableColumn{
+ text-align:left;
+} 
 
 table{
  width:100%;
  height:100%
+}
+
+table#section3Table{
+ width:100%;
+ height:90%;
+ padding: 2em;
+ padding-top:0.2em;
+ padding-bottom:0.2em;
 }
 
 tr.nonMessageRow {
