@@ -316,9 +316,13 @@ img#myMainPagePic{
 @media only screen and (max-width: 1079px) 
 {
 img#myMainPagePic{
- width: 5%;
+ width: 100%;
 }
-
+#section3Bio {
+    margin: 4em;
+    line-height: 1em;
+}
+ 
 }
 
 
