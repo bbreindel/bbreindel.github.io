@@ -301,6 +301,29 @@ img#myMainPagePic{
 }
 
 }
+
+/*  for Desktop size screens */
+@media only screen and (min-width: 1280px) 
+{
+img#myMainPagePic{
+ width: 100%;
+}
+
+}
+
+
+/*  for Desktop size screens */
+@media only screen and (min-width: 1000px) 
+{
+img#myMainPagePic{
+ width: 5%;
+}
+
+}
+
+
+
+
 /* Small devices (phones, 767px and down) */
 
 @media only screen and (max-width: 767px) 
