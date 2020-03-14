@@ -264,6 +264,10 @@ tr.nonMessageRow {
  height: 5%;
 }
 
+#sect3Icon3Column{
+ padding-bottom:0.5em;
+}
+
 .headerRow, .imageRow{
  height:5%;
 }
