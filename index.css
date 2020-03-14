@@ -243,8 +243,8 @@ td.section3TableColumn{
 } 
 
 #section3Bio{
- margin: 5em;
- line-height: 2em;
+ margin: 1em;
+ line-height: 1em;
 }
 
 table{
@@ -309,10 +309,7 @@ img#myMainPagePic{
 img#myMainPagePic{
  width: 100%;
 }
-#section3Bio {
-    margin: 2em;
-    line-height: 1em;
-}
+
  
 }
 
