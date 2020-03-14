@@ -294,7 +294,7 @@ tr.messageRow{
 }
 
 /*  for TV size screens */
-@media only screen and (min-width: 1600px) 
+@media only screen and (min-width: 1500px) 
 {
 img#myMainPagePic{
  width: 80%;
@@ -303,7 +303,7 @@ img#myMainPagePic{
 }
 
 /*  for Desktop size screens */
-@media only screen and (min-width: 1280px) 
+@media only screen and (max-width: 1080px) 
 {
 img#myMainPagePic{
  width: 100%;
@@ -313,7 +313,7 @@ img#myMainPagePic{
 
 
 /*  for Desktop size screens */
-@media only screen and (min-width: 1000px) 
+@media only screen and (max-width: 1079px) 
 {
 img#myMainPagePic{
  width: 5%;
