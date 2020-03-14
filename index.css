@@ -130,6 +130,13 @@ img.section3Icon{
  height:100%;
 }
 
+h3{
+ color:darkslategrey;
+}
+
+h2{
+ color:cadetblue;
+}
 
 form{
  background-color:lightblue;
