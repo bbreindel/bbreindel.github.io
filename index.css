@@ -234,7 +234,8 @@ td.section3TableColumn{
 } 
 
 #section3Bio{
- width:80%;
+ margin: 5em;
+ line-height: 2em;
 }
 
 table{
