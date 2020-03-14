@@ -262,3 +262,20 @@ tr.messageRow{
  vertical-align:bottom;
 }
 
+/*  for TV size screens */
+@media only screen and (min-width: 1600px) 
+{
+img#myMainPagePic{
+ width: 30%;
+}
+
+}
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 767px) 
+{
+img#myMainPagePic{
+ width: 30%;
+}
+
+}
