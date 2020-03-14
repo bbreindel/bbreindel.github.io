@@ -313,7 +313,7 @@ img#myMainPagePic{
 
 
 /*  for Desktop size screens */
-@media only screen and (max-width: 1079px) 
+@media only screen and (max-width: 992px) 
 {
 img#myMainPagePic{
  width: 100%;
