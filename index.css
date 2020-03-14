@@ -264,6 +264,10 @@ tr.nonMessageRow {
  height: 5%;
 }
 
+.headerRow, .imageRow{
+ height:5%;
+}
+
 tr.messageRow{
  height: 100%;
 }
