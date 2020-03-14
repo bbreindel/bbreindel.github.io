@@ -233,6 +233,10 @@ td.section3TableColumn{
  text-align:left;
 } 
 
+#section3Bio{
+ width:80%;
+}
+
 table{
  width:100%;
  height:100%
@@ -253,11 +257,11 @@ tr.nonMessageRow {
 tr.messageRow{
  height: 100%;
 }
-
+/* remove  //deleted
 #imageDiv{
  vertical-align:top;
  height:70%;
-}
+} */
 
 #sectionThreeTop{
  Height:50%;
@@ -288,3 +292,5 @@ img#myMainPagePic{
 }
 
 }
+
+
