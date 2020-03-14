@@ -238,7 +238,7 @@ table{
  height:100%
 }
 
-table#section3Table{
+table.section3Table{
  width:100%;
  height:90%;
  padding: 2em;
