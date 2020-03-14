@@ -280,18 +280,30 @@ tr.messageRow{
 @media only screen and (min-width: 1600px) 
 {
 img#myMainPagePic{
- width: 30%;
+ width: 80%;
 }
 
 }
-/* Extra small devices (phones, 600px and down) */
+/* Small devices (phones, 767px and down) */
 
 @media only screen and (max-width: 767px) 
 {
 img#myMainPagePic{
- width: 30%;
+ width: 100%;
 }
-
+ 
+.section3Section {
+    height: 30%;
+    display: block;
+    width: 26%;
+    background-color: white;
+    border: solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+ 
+ 
+ 
 }
 
 
