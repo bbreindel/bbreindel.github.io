@@ -357,7 +357,7 @@ img#myMainPagePic{
  }
  
    #section3Section3{
-   height:44%;
+   height:40%;
  }
  
 .section3Table, #mainPageSectionTwoHeader, #section2Bio{
@@ -397,30 +397,4 @@ td.imageColumnMobile{
  
  
 }
-
-
-/*
-.headerRow, .imageRow{
- height:5%;
-}
-img.section3Icon{
- width: 25%;
-}
-
-td.section3TableColumn{
- text-align:left;
-} 
-#sect3Icon3Column{
- padding-bottom:0.5em;
-}
-
-table.section3Table{
- width:100%;
- height:90%;
- padding: 2em;
- padding-top:0.2em;
- padding-bottom:0.2em;
-}
-*/
-
 
