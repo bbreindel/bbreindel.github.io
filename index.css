@@ -366,13 +366,21 @@ img#myMainPagePic{
 img.section3IconMobile{
  width: 25%;
 }
+ 
 td.section3TableColumnMobile{
  text-align:left;
+ font-size: small;
 } 
-
+ 
  h4.h4mobile{
   margin:0;
  }
+ 
+td.imageColumnMobile{
+ width:50%;
+ padding-top:5%;
+ }
+ 
  
 }
 
