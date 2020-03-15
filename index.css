@@ -239,7 +239,7 @@ h1#successfulMessage{
  width:100%;
  height: 100%;
  resize: none;
-}section3TableColumn
+}
 
 td{
  text-align:center;
@@ -370,6 +370,10 @@ td.section3TableColumnMobile{
  text-align:left;
 } 
 
+ h4.h4mobile{
+  margin:0;
+ }
+ 
 }
 
 
