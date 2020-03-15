@@ -341,7 +341,6 @@ img#myMainPagePic{
   }
 
   .section3Section {
-      height: 27%;
       display: block;
       width: 90%;
       background-color: white;
@@ -349,6 +348,17 @@ img#myMainPagePic{
       margin: 5%;
       border-radius: 10px;
   }
+   #section3Section1{
+   height:20%;
+ }
+ 
+  #section3Section2{
+   height:27%;
+ }
+ 
+   #section3Section3{
+   height:44%;
+ }
  
 .section3Table, #mainPageSectionTwoHeader, #section2Bio{
   display:none;
