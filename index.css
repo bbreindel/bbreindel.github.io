@@ -403,3 +403,43 @@ td.imageColumnMobile{
  
 }
 
+@media only screen and (max-width: 767px) and (orientation: landscape) 
+{
+  img#myMainPagePic{
+   width: 100%;
+  }
+
+ .section3Section{
+  height:85% 
+ }
+
+.headerRowMobile{
+ height: 2%;
+}
+.imageRowMobile{
+ height: 20%;
+}
+
+img.section3Icon{
+ display:none;
+}
+ 
+td.section3TableColumn{
+ text-align:left;
+ font-size: x-small;
+} 
+ 
+ #section3TableColumnList{
+  font-size:x-small;
+ }
+
+ ul{
+
+   margin:0;
+ }
+
+ h3{
+   margin:0;
+ }
+ 
+}
