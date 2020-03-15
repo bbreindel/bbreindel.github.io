@@ -334,7 +334,7 @@ img#myMainPagePic{
 
 /* Small devices (phones, 767px and down) */
 
-@media only screen and (max-width: 767px) 
+@media only screen and (max-width: 767px) not landscape
 {
   img#myMainPagePic{
    width: 100%;
