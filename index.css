@@ -249,7 +249,7 @@ td.section3TableColumn{
  text-align:left;
 } 
 
-#section3Bio{
+#section2Bio, #section2BioMobile{
  margin: 1em;
  line-height: 2em;
 }
@@ -304,7 +304,7 @@ tr.messageRow{
  width:30%;
 }
 
-.section3TableMobile{
+.section3TableMobile, #mainPageSectionTwoHeaderMobile, #section2BioMobile{
 
   display:none;
 }
@@ -350,12 +350,12 @@ img#myMainPagePic{
       border-radius: 10px;
   }
  
-.section3Table{
+.section3Table, #mainPageSectionTwoHeader, #section2Bio{
   display:none;
 
 }
  
-.section3TableMobile{
+.section3TableMobile, #mainPageSectionTwoHeaderMobile, #section2BioMobile{
 
   display:initial;
 }
