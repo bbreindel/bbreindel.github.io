@@ -300,6 +300,11 @@ tr.messageRow{
  vertical-align:bottom;
 }
 
+.section3TableMobile{
+
+  display:none;
+}
+
 /*  for TV size screens */
 @media only screen and (min-width: 1500px) 
 {
@@ -341,6 +346,16 @@ img#myMainPagePic{
       border-radius: 10px;
   }
  
+.section3Table{
+  display:none;
+
+}
+ 
+.section3TableMobile{
+
+  display:initial;
+}
+
 }
 
 
