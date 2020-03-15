@@ -345,11 +345,12 @@ img#myMainPagePic{
       width: 90%;
       background-color: white;
       border: solid black;
-      margin: 5%;
+      margin: 3%;
       border-radius: 10px;
   }
    #section3Section1{
    height:20%;
+   margin-top:0;
  }
  
   #section3Section2{
@@ -358,6 +359,7 @@ img#myMainPagePic{
  
    #section3Section3{
    height:43%;
+    margin-bottom:0;
  }
  
 .section3Table, #mainPageSectionTwoHeader, #section2Bio{
