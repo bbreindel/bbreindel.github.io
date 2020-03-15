@@ -300,6 +300,10 @@ tr.messageRow{
  vertical-align:bottom;
 }
 
+.mobileIcontd{
+ width:30%;
+}
+
 .section3TableMobile{
 
   display:none;
@@ -364,7 +368,7 @@ img#myMainPagePic{
 }
 
 img.section3IconMobile{
- width: 25%;
+ width: 50%;
 }
  
 td.section3TableColumnMobile{
