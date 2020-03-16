@@ -22,11 +22,10 @@ font-family: 'Lato', sans-serif;
 #section4Container{
  background: url('fall2.jpg');
  background-size:cover;
- width: 100vh;
+ width: 100%;
  position: absolute;
  height: 100%;
  top: 0;
- left: 15%;
  margin: 0;
 }
 
