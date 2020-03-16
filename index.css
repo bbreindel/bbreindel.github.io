@@ -304,7 +304,7 @@ tr.messageRow{
  width:30%;
 }
 
-.section3TableMobile, #mainPageSectionTwoHeaderMobile, #section2BioMobile{
+.section3TableMobile, #mainPageSectionTwoHeaderMobile, #section2BioMobile, .h4Landscape{
 
   display:none;
 }
@@ -362,7 +362,7 @@ img#myMainPagePic{
     margin-bottom:0;
  }
  
-.section3Table, #mainPageSectionTwoHeader, #section2Bio, .h4Landscape{
+.section3Table, #mainPageSectionTwoHeader, #section2Bio{
   display:none;
 
 }
