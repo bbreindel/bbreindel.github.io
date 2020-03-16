@@ -362,7 +362,7 @@ img#myMainPagePic{
     margin-bottom:0;
  }
  
-.section3Table, #mainPageSectionTwoHeader, #section2Bio{
+.section3Table, #mainPageSectionTwoHeader, #section2Bio, .h4Landscape{
   display:none;
 
 }
@@ -419,8 +419,12 @@ td.imageColumnMobile{
 .imageRowMobile{
  height: 20%;
 }
-
-img.section3Icon{
+ 
+.h4Landscape{
+ display:initial;
+ }
+ 
+img.section3Icon, .h3Normal{
  display:none;
 }
  
@@ -438,8 +442,5 @@ td.section3TableColumn{
    margin:0;
  }
 
- h3{
-   margin:0;
- }
  
 }
