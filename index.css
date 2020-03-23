@@ -17,6 +17,7 @@ font-family: 'Lato', sans-serif;
 #mainMenuContainer{
  background: url('roadRain.jpg');
  background-size:cover;
+ -webkit-background-size: cover;
 }
 
 #section4Container{
