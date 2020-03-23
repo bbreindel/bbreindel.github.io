@@ -245,7 +245,15 @@
 <script type="text/javascript" src="http://www.williambreindel.com/jquery.fullPage.min.js"></script>
 <script type="text/javascript" src="http://www.williambreindel.com/webflow.055c1ac13.js"></script>
 <script type="text/javascript">
-	
+	function resetHeight(){
+	// reset the section/column height to that of the inner browser
+	document.getElementById("mainMenuContainer").style.minHeight = window.innerHeight + "px";
+	//document.getElementById("column-inside-section-before-scroll").style.minHeight = window.innerHeight + "px";
+}
+// reset the height whenever the window's resized
+window.addEventListener("resize", resetHeight);
+// called to initially set the height.
+resetHeight();
 	
 	
 	$(document).ready(function() {
