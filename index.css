@@ -95,11 +95,11 @@ a:hover{
  opacity: 0.5;
 }
 
-#menuHomeLink{
+#menuHomeLink, #footCopyright{
  left:28%;
 }
 
-#menuContactLink{
+#menuContactLink, #footFYI{
  left:58%;
 }
 
@@ -345,7 +345,7 @@ img#myMainPagePic{
    margin-top:0;
  }
  
- #menuHomeLink{
+ #footCopyright{
   left:20%;
  }
  
@@ -358,7 +358,7 @@ img#myMainPagePic{
     margin-bottom:0;
  }
  
-.section3Table, #mainPageSectionTwoHeader, #section2Bio, #menuContactLink, #fp-nav{
+.section3Table, #mainPageSectionTwoHeader, #section2Bio, #footFYI, #fp-nav{
   display:none;
 
 }
