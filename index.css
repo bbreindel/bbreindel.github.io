@@ -17,7 +17,9 @@ font-family: 'Lato', sans-serif;
 #mainMenuContainer{
  background: url('roadRain.jpg');
  background-size:cover;
- -webkit-background-size: cover;
+-webkit-background-size: 100%;
+-moz-background-size: cover;
+-o-background-size: cover;
 }
 
 #section4Container{
@@ -352,7 +354,7 @@ img#myMainPagePic{
     margin-bottom:0;
  }
  
-.section3Table, #mainPageSectionTwoHeader, #section2Bio{
+.section3Table, #mainPageSectionTwoHeader, #section2Bio, #menuContactLink, #fp-nav{
   display:none;
 
 }
