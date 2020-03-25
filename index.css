@@ -145,10 +145,14 @@ img.section3Icon{
  width: 25%;
 }
 
+#mainPageSectionTwo{
+  background-color:white;
+}
+
 #mainPageSectionThree{
  background-color:lightgrey;
  width:100%;
- height:100%;
+ height:100vh;
 }
 
 h3{
