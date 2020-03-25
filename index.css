@@ -1,6 +1,7 @@
 html, body{
  text-align:center;
- height:100%;
+ height:100vh;
+ min-height: 100%;
  margin:0%;
  overflow: hidden;
 font-family: 'Lato', sans-serif;
@@ -16,12 +17,29 @@ font-family: 'Lato', sans-serif;
 }
 
 #mainMenuContainer{
- background: url('roadRain3.jpg');
+ background: url('roadRain3.jpg')no-repeat center center fixed;
  background-size:cover;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 }
+
+#mainMenuContainer:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url('roadRain3.jpg') center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+
 
 #section4Container{
  background: url('fall2.jpg');
@@ -441,3 +459,7 @@ td.section3TableColumn{
 
  
 }
+
+
+
+
