@@ -343,11 +343,100 @@ img#myMainPagePic{
 
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+   img#myMainPagePic{
+   width: 100%;
+  }
+
+ #page2PicDiv{
+    -webkit-clip-path: inset(60px 250px 0 250px );
+    clip-path: inset(60px 250px 0 250px );
+    transform: scale(1.35);
+    transform-origin: bottom right;
+ }
+ 
+ #mainPageSectionTwoHeader{
+    display: block;
+    width: 40%;
+    position: absolute;
+    padding-left: 60%;
+    padding-top: 4%;
+ }
+ 
+ .section3Section{
+  height:85% 
+ }
+
+.headerRowMobile{
+ height: 2%;
+}
+.imageRowMobile{
+ height: 20%;
+}
+ 
+img.section3Icon, .h3Normal{
+ display:none;
+}
+ 
+td.section3TableColumn{
+ text-align:left;
+ font-size: x-small;
+} 
+ 
+ #section3TableColumnList{
+  font-size:x-small;
+ }
+
+ ul{
+
+   margin:0;
+ }
+}
+ 
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
+{
+  img#myMainPagePic{
+   width: 100%;
+  }
+
+ .section3Section{
+  height:85% 
+ }
+
+.headerRowMobile{
+ height: 2%;
+}
+.imageRowMobile{
+ height: 20%;
+}
+ 
+.h4Landscape{
+ display:initial;
+ }
+ 
+img.section3Icon, .h3Normal{
+ display:none;
+}
+ 
+td.section3TableColumn{
+ text-align:left;
+ font-size: x-small;
+} 
+ 
+ #section3TableColumnList{
+  font-size:x-small;
+ }
+
+ ul{
+
+   margin:0;
+ }
+
+ 
+}
 
 
-
-
-/* Small devices (phones, 767px and down) */
 
 @media only screen and (max-width: 767px) and (orientation: portrait) 
 {
@@ -422,7 +511,7 @@ td.imageColumnMobile{
  
 }
 
-@media only screen and (max-width: 1280px) and (orientation: landscape) 
+/* @media only screen and (max-width: 1280px) and (orientation: landscape) 
 {
   img#myMainPagePic{
    width: 100%;
@@ -462,7 +551,7 @@ td.section3TableColumn{
  }
 
  
-}
+} */
 
 
 
