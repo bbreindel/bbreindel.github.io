@@ -525,7 +525,7 @@ td.imageColumnMobile{
     transform: scale(1.45);
     transform-origin: bottom right;
     height:40%; 
-      margin-top: -10%;
+      margin-top: -6%;
  }
  
   #mainPageSectionTwoHeader{
@@ -534,7 +534,7 @@ td.imageColumnMobile{
     position: absolute;
     padding-left: 60%;
     padding-top: 4%;
-       margin-top: -10%;
+       margin-top: -6%;
  }
  
 }
