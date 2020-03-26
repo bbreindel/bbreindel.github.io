@@ -398,7 +398,7 @@ td.section3TableColumn{
     transform-origin: bottom right;
  }
  
- #section2BioMobile{
+ #section2Bio{
   display:none;
  }
  
@@ -448,13 +448,21 @@ td.section3TableColumn{
 @media only screen and (max-height: 800px) {
  
  #page2PicDiv{
-    -webkit-clip-path: inset(60px 250px 0 250px );
-    clip-path: inset(60px 250px 0 250px );
-    transform: scale(1.45);
+    -webkit-clip-path: inset(80px 350px 0 350px );
+    clip-path: inset(80px 350px 0 350px );
+    transform: scale(1.55);
     transform-origin: bottom right;
  }
  
- #section2BioMobile{
+  #mainPageSectionTwoHeader{
+    display: block;
+    width: 30%;
+    position: absolute;
+    padding-left: 65%;
+    padding-top: 4%;
+ }
+ 
+ #section2Bio{
   display:none;
  }
  
