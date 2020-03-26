@@ -159,7 +159,7 @@ h3{
  color:darkslategrey;
 }
 
-h2, h4{
+h2{
  color:#5f9ea0;
 }
 
@@ -303,15 +303,13 @@ tr.nonMessageRow {
 .headerRow, .imageRow{
  height:5%;
 }
-
+#mainPageSectionTwoHeaderMobile{
+ color:#5f9ea0;
+}
 tr.messageRow{
  height: 100%;
 }
-/* remove  //deleted
-#imageDiv{
- vertical-align:top;
- height:70%;
-} */
+
 
 #sectionThreeTop{
  Height:50%;
