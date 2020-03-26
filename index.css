@@ -159,7 +159,7 @@ h3{
  color:darkslategrey;
 }
 
-h2{
+h2, h4{
  color:#5f9ea0;
 }
 
@@ -517,7 +517,7 @@ td.imageColumnMobile{
  
 }
 
-@media only screen and (max-height: 800px) {
+@media only screen and (min-height:600px) and (min-width: 900px) and (max-height: 800px) {
  
  #page2PicDiv{
     -webkit-clip-path: inset(80px 350px 0 350px );
