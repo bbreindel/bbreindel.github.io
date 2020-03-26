@@ -522,7 +522,7 @@ td.imageColumnMobile{
  #page2PicDiv{
     -webkit-clip-path: inset(80px 350px 0 350px );
     clip-path: inset(90px 350px 10px 350px );
-    transform: scale(1.65);
+    transform: scale(1.45);
     transform-origin: bottom right;
     height:40%; 
       margin-top: -10%;
@@ -537,13 +537,6 @@ td.imageColumnMobile{
        margin-top: -10%;
  }
  
- #section2Bio{
-  display:none;
- }
- 
- #section2BioMobile{
-  display:initial;
- }
 }
 
 
