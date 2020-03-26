@@ -356,6 +356,15 @@ img#myMainPagePic{
     transform-origin: bottom right;
  }
  
+ #section2BioMobile{
+  display:none;
+ }
+ 
+ #section2BioMobile{
+  display:inital;
+ }
+ 
+ 
  #mainPageSectionTwoHeader{
     display: block;
     width: 40%;
