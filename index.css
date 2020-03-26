@@ -343,6 +343,48 @@ img#myMainPagePic{
 
 }
 
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
+{
+  img#myMainPagePic{
+   width: 100%;
+  }
+
+ .section3Section{
+  height:85% 
+ }
+
+.headerRowMobile{
+ height: 2%;
+}
+.imageRowMobile{
+ height: 20%;
+}
+ 
+.h4Landscape{
+ display:initial;
+ }
+ 
+img.section3Icon, .h3Normal{
+ display:none;
+}
+ 
+td.section3TableColumn{
+ text-align:left;
+ font-size: x-small;
+} 
+ 
+ #section3TableColumnList{
+  font-size:x-small;
+ }
+
+ ul{
+
+   margin:0;
+ }
+
+ 
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
  
    img#myMainPagePic{
@@ -401,48 +443,6 @@ td.section3TableColumn{
 
    margin:0;
  }
-}
- 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
-{
-  img#myMainPagePic{
-   width: 100%;
-  }
-
- .section3Section{
-  height:85% 
- }
-
-.headerRowMobile{
- height: 2%;
-}
-.imageRowMobile{
- height: 20%;
-}
- 
-.h4Landscape{
- display:initial;
- }
- 
-img.section3Icon, .h3Normal{
- display:none;
-}
- 
-td.section3TableColumn{
- text-align:left;
- font-size: x-small;
-} 
- 
- #section3TableColumnList{
-  font-size:x-small;
- }
-
- ul{
-
-   margin:0;
- }
-
- 
 }
 
 
