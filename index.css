@@ -445,6 +445,23 @@ td.section3TableColumn{
  }
 }
 
+@media only screen and (max-height: 800px) {
+ 
+ #page2PicDiv{
+    -webkit-clip-path: inset(60px 250px 0 250px );
+    clip-path: inset(60px 250px 0 250px );
+    transform: scale(1.45);
+    transform-origin: bottom right;
+ }
+ 
+ #section2BioMobile{
+  display:none;
+ }
+ 
+ #section2BioMobile{
+  display:inital;
+ }
+}
 
 
 @media only screen and (max-width: 767px) and (orientation: portrait) 
