@@ -452,6 +452,7 @@ td.section3TableColumn{
     clip-path: inset(80px 350px 0 350px );
     transform: scale(1.55);
     transform-origin: bottom right;
+    height:40%; 
  }
  
   #mainPageSectionTwoHeader{
