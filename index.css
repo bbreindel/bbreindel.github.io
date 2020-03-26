@@ -394,6 +394,7 @@ td.section3TableColumn{
     clip-path: inset(60px 250px 0 250px );
     transform: scale(1.45);
     transform-origin: bottom right;
+      margin-top: -10%;
  }
  
  #section2Bio{
@@ -411,6 +412,7 @@ td.section3TableColumn{
     position: absolute;
     padding-left: 65%;
     padding-top: 4%;
+      margin-top: -10%;
  }
  
  .section3Section{
@@ -523,6 +525,7 @@ td.imageColumnMobile{
     transform: scale(1.65);
     transform-origin: bottom right;
     height:40%; 
+      margin-top: -10%;
  }
  
   #mainPageSectionTwoHeader{
@@ -531,6 +534,7 @@ td.imageColumnMobile{
     position: absolute;
     padding-left: 60%;
     padding-top: 4%;
+       margin-top: -10%;
  }
  
  #section2Bio{
