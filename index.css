@@ -49,7 +49,7 @@ font-family: 'Lato', sans-serif;
 
 
 #section4Container{
- background: #BCE784;
+ background: url('pc.jpg');
  background-size:cover;
  width: 100%;
  position: absolute;
@@ -171,7 +171,7 @@ h2{
 }
 
 form{
- background-color:teal;
+ background-color:#ABD278;
  border:4px;
  width:50%;
  height:50%;
