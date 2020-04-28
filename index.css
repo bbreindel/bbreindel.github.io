@@ -16,6 +16,13 @@ font-family: 'Lato', sans-serif;
  margin:0;
 }
 
+#toppadding{
+     height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
 #mainMenuContainer{
  background: url('roadRain3.jpg')no-repeat center center fixed;
  background-size:cover;
