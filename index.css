@@ -106,7 +106,7 @@ a{
  color:white;
  text-decoration:none;
  position:absolute;
- font-family: 'Source Serif Pro', serif;
+ font-family: unset;
  top:15%;
 }
 
