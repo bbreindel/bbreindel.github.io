@@ -39,7 +39,8 @@ font-family: 'Lato', sans-serif;
       left:0;
       right:0;
       z-index:-1; /* needed to keep in the background */
-      background: url('roadRain3.jpg') center center;
+      /* background: url('roadRain3.jpg') center center;*/
+ background: url('home1.jpg') center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
