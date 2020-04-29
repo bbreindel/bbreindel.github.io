@@ -131,6 +131,10 @@ a:hover{
  left:58%;
 }
 
+#frontPageNameH2{
+ font-size: xx-large;
+}
+
 #frontPageName{
  padding-top: 20%;
  color: white;
