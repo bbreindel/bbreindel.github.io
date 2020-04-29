@@ -138,13 +138,13 @@ a:hover{
  display: flex;
  flex-direction: column;
  text-align:center;
- background-color:black;
 }
 
 .frontPageNameH{
  margin:unset;
  width: fit-content;
  align-self: center;
+ background-color:black;
 }
 
 img#myMainPagePic{
