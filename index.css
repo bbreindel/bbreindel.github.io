@@ -145,7 +145,7 @@ a:hover{
 }
 
 img#myMainPagePic{
- width: 100%;
+ width: 60%;
 }
 
 img.section3Icon{
@@ -398,7 +398,7 @@ td.section3TableColumn{
 
  #page2PicDiv{
     -webkit-clip-path: inset(35% 250px 0 250px );
-    clip-path: inset(35% 250px 0 250px );
+    clip-path: inset(10% 250px 0 250px );
     transform: scale(1.45);
     transform-origin: bottom right;
       margin-top: -10%;
