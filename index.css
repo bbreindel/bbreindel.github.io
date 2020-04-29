@@ -416,7 +416,7 @@ td.section3TableColumn{
  }
  
  #section2BioMobile{
-  display:initial;
+  display:block;
  }
  
  
@@ -563,6 +563,7 @@ td.imageColumnMobile{
  }
  #section2BioMobile{
   font-size:small;
+  display:block,
  }
  
 }
