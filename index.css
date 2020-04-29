@@ -393,11 +393,11 @@ td.section3TableColumn{
 @media (min-width: 768px) and (max-width: 1024px) {
  
    img#myMainPagePic{
-   width: 100%;
+   width: 80%;
   }
 
  #page2PicDiv{
-    -webkit-clip-path: inset(35% 250px 0 250px );
+    -webkit-clip-path: inset(10% 250px 0 250px );
     clip-path: inset(10% 250px 0 250px );
     transform: scale(1.45);
     transform-origin: bottom right;
