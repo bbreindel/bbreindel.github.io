@@ -551,7 +551,7 @@ td.imageColumnMobile{
  }
 }
 
-@media only screen and (min-width: 900px) and (max-height: 580px) {
+@media only screen and (min-width: 600px) and (max-height: 580px) {
  
  img#myMainPagePic{
   width: 25%;
