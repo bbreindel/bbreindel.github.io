@@ -24,7 +24,8 @@ font-family: 'Lato', sans-serif;
 }
 }
 #mainMenuContainer{
- background: url('roadRain3.jpg')no-repeat center center fixed;
+ /*background: url('roadRain3.jpg')no-repeat center center fixed; */
+ background: url('home1.jpg')no-repeat center center fixed;
  background-size:cover;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -39,7 +40,7 @@ font-family: 'Lato', sans-serif;
       left:0;
       right:0;
       z-index:-1; /* needed to keep in the background */
-      /* background: url('roadRain3.jpg') center center;*/
+      /* background: url('roadRain3.jpg') center center; */
  background: url('home1.jpg') center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
