@@ -348,10 +348,10 @@ tr.messageRow{
 }
 
 /*  for TV size screens */
-@media only screen and (min-width: 1500px) 
+@media only screen and (min-width: 1350px) 
 {
 img#myMainPagePic{
- width: 80%;
+ width: 40%;
 }
 
 }
