@@ -291,7 +291,7 @@ td{
 } 
 
 td.section3TableColumn{
- text-align:left;
+ text-align:center;
 } 
 
 #section2Bio, #section2BioMobile{
@@ -329,6 +329,11 @@ tr.nonMessageRow {
 }
 tr.messageRow{
  height: 100%;
+}
+
+ul.section3List{
+ padding-left:40%;
+ text-align:left;
 }
 
 
@@ -388,7 +393,7 @@ img.section3Icon, .h3Normal{
 }
  
 td.section3TableColumn{
- text-align:left;
+ text-align:center;
  font-size: x-small;
 } 
  
