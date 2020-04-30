@@ -358,6 +358,10 @@ ul.section3List{
  width:30%;
 }
 
+ #page2PicDiv{
+      margin-top: 5px;
+ }
+
 .section3TableMobile, #mainPageSectionTwoHeaderMobile, #section2BioMobile, .h4Landscape{
 
   display:none;
