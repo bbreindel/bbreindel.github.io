@@ -7,6 +7,12 @@ html, body{
 font-family: 'Lato', sans-serif;
 }
 
+#fp-nav{
+ background-color: #ABD278;
+ opacity: 0.5;
+}
+
+
 .container{
  position: absolute;
  top:0;
