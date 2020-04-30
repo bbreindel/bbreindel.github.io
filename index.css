@@ -577,17 +577,11 @@ td.imageColumnMobile{
     text-align: left;
  }
  
-  #mainPageSectionTwoHeader{
-    display: block;
-    width: 25%;
-    position: absolute;
-    padding-left: 65%;
-    padding-top: 4%;
- }
+
  
  img#myMainPagePic{
   width: 40%;
-  padding-left: 30%;
+  padding-left: 28%;
  }
 }
 
