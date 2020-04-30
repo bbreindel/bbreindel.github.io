@@ -401,6 +401,8 @@ td.section3TableColumn{
  
    img#myMainPagePic{
    width: 40%;
+    padding-right: 10%;
+    padding-top:20%;
   }
 
  #page2PicDiv{
@@ -417,6 +419,9 @@ td.section3TableColumn{
  
  #section2BioMobile{
   display:block;
+  margin-right: 10%;
+    margin-left: 5%;
+    font-size: small;
  }
  
  
@@ -426,7 +431,7 @@ td.section3TableColumn{
     position: absolute;
     padding-left: 55%;
     padding-top: 4%;
-      margin-top: -10%;
+      margin-top: 7%;
  }
  
  .section3Section{
@@ -552,6 +557,7 @@ td.imageColumnMobile{
  
  img#myMainPagePic{
   width: 40%;
+  padding-right: 25%;
  }
 }
 
