@@ -173,6 +173,7 @@ img.section3Icon{
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
+ padding: none;
 }
 
 h3{
