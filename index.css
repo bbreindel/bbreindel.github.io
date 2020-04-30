@@ -165,9 +165,14 @@ img.section3Icon{
 }
 
 #mainPageSectionThree{
- background-color:#BCE784;
+ /*background-color:#BCE784; */
  width:100%;
  height:100vh;
+  background: url('pc3.jpg')no-repeat center center fixed;
+ background-size:cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 }
 
 h3{
