@@ -562,6 +562,13 @@ td.imageColumnMobile{
   font-size: X-small;
 }
 
+ #mainPageSectionTwoHeader{
+  display:none;
+ }
+ 
+ #mainPageSectionTwoHeaderMobile{
+  display: inital;
+ }
 
  
 }
