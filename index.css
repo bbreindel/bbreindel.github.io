@@ -341,7 +341,11 @@ ul.section3List{
  text-align:left;
  margin-top: unset;
 }
-
+ul.section3ListMobile{
+ padding-left:40%;
+ text-align:left;
+ margin-top: unset;
+}
 
 #sectionThreeTop{
  Height:50%;
@@ -413,7 +417,7 @@ td.section3TableColumn{
 
  ul{
 
-   margin:0;
+   margin:unset;
  }
  
  table.section3Table{
@@ -486,7 +490,7 @@ td.section3TableColumn{
 
  ul{
 
-   margin:0;
+   margin:unset;
  }
 }
 @media only screen and (max-width: 767px) and (orientation: portrait) 
