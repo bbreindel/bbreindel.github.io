@@ -331,9 +331,14 @@ tr.messageRow{
  height: 100%;
 }
 
+tr.messageRow{
+ height: 100%;
+}
+
 ul.section3List{
  padding-left:40%;
  text-align:left;
+ margin-top: unset;
 }
 
 
@@ -561,14 +566,14 @@ td.imageColumnMobile{
 @media only screen and (max-width: 600px) and (orientation: portrait) 
 {
   img#myMainPagePic{
-   width: 80%;
+   width: 50%;
   }
 
  #section2Bio{
 
   display:block;
-  margin-left: 4%;
-  margin-right: 4%;
+  margin-left: 2%;
+  margin-right: 2%;
   font-size: X-small;
 }
 
