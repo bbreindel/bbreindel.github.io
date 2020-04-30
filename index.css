@@ -25,7 +25,7 @@ font-family: 'Lato', sans-serif;
 }
 #mainMenuContainer{
  /*background: url('roadRain3.jpg')no-repeat center center fixed; */
- background: url('home1.jpg')no-repeat center center fixed;
+ background: url('0002.jpg')no-repeat center center fixed;
  background-size:cover;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -41,7 +41,7 @@ font-family: 'Lato', sans-serif;
       right:0;
       z-index:-1; /* needed to keep in the background */
       /* background: url('roadRain3.jpg') center center; */
- background: url('home1.jpg') center center;
+ background: url('0002.jpg') center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -51,7 +51,7 @@ font-family: 'Lato', sans-serif;
 
 
 #section4Container{
- background: url('pc.jpg');
+ background: url('0001.jpg');
  background-size:cover;
  width: 100%;
  position: absolute;
@@ -61,7 +61,7 @@ font-family: 'Lato', sans-serif;
 }
 
 #contactContainer{
- background: url('pc.jpg');
+ background: url('0001.jpg');
  background-size:cover;
 }
 
