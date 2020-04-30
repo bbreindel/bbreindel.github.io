@@ -393,6 +393,10 @@ td.section3TableColumn{
 
    margin:0;
  }
+ 
+ table.section3Table{
+  font-size: smaller;
+ }
 
  
 }
