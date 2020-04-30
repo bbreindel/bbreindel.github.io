@@ -500,16 +500,16 @@ td.section3TableColumn{
     margin-bottom:0;
  }
  
-.section3Table, #mainPageSectionTwoHeader, #section2Bio, #footFYI, #fp-nav{
+.section3Table, #footFYI, #fp-nav{
   display:none;
 
 }
  
-.section3TableMobile, #mainPageSectionTwoHeaderMobile, #section2BioMobile{
+.section3TableMobile{
 
   display:initial;
 }
- #section2BioMobile{
+ #section2Bio{
 
   display:block;
   margin-right:4%;
@@ -546,6 +546,25 @@ td.imageColumnMobile{
  }
  
 }
+
+@media only screen and (max-width: 600px) and (orientation: portrait) 
+{
+  img#myMainPagePic{
+   width: 80%;
+  }
+
+ #section2Bio{
+
+  display:block;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: X-small;
+}
+
+
+ 
+}
+
 
 @media only screen and (min-height:600px) and (min-width: 900px) and (max-height: 800px) {
  
