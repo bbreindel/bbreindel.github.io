@@ -329,6 +329,7 @@ tr.nonMessageRow {
 }
 #mainPageSectionTwoHeaderMobile{
  color:#ABD278;
+ margin-top:unset;
 }
 tr.messageRow{
  height: 100%;
@@ -367,6 +368,8 @@ ul.section3ListMobile{
 
  #page2PicDiv{
       margin-top: 5px;
+  overflow:hidden;
+  max-height:230px;
  }
 
 .section3TableMobile, #mainPageSectionTwoHeaderMobile, #section2BioMobile, .h4Landscape{
@@ -613,10 +616,12 @@ td.imageColumnMobile{
     text-align: left;
  }
  
-
+  #mainPageSectionTwoHeader{
+      margin-top: unset;
+ }
  
  img#myMainPagePic{
-  width: 40%;
+  width: 33%;
   padding-left: 28%;
  }
 }
