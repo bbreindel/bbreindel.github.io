@@ -149,6 +149,7 @@ a:hover{
  width: fit-content;
  align-self: center;
  background-color:black;
+ opacity: 0.8;
 }
 
 img#myMainPagePic{
