@@ -405,9 +405,9 @@ td.section3TableColumn{
 @media (min-width: 768px) and (max-width: 1024px) {
  
    img#myMainPagePic{
-   width: 40%;
+   width: 35%;
     padding-right: 10%;
-    padding-top:20%;
+    padding-top:16%;
   }
 
  #page2PicDiv{
