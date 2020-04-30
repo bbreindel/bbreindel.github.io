@@ -7,7 +7,7 @@ html, body{
 font-family: 'Lato', sans-serif;
 }
 
-#fp-nav{
+#fp-nav li{
  background-color: #ABD278;
  opacity: 0.5;
 }
