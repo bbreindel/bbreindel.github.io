@@ -508,6 +508,12 @@ td.section3TableColumn{
 
   display:initial;
 }
+ #section2BioMobile{
+
+  display:block;
+  margin-right:4%;
+  margin-left: 4%;
+}
 
 .headerRowMobile{
  height: 2%;
