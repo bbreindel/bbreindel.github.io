@@ -369,7 +369,7 @@ ul.section3ListMobile{
  #page2PicDiv{
       margin-top: 5px;
   overflow:hidden;
-  max-height:230px;
+  max-height:270px;
  }
 
 .section3TableMobile, #mainPageSectionTwoHeaderMobile, #section2BioMobile, .h4Landscape{
@@ -622,7 +622,7 @@ td.imageColumnMobile{
  
  img#myMainPagePic{
   width: 33%;
-  padding-left: 28%;
+  padding-left: 34%;
  }
 }
 
