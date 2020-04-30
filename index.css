@@ -598,10 +598,37 @@ td.imageColumnMobile{
  img#myMainPagePic{
   width: 25%;
   margin-top:-8px;
+     padding-right: 10%;
+    padding-top:16%;
+  }
+
+ #page2PicDiv{
+    -webkit-clip-path: inset(10% 250px 0 250px );
+    clip-path: inset(10% 250px 0 250px );
+    transform: scale(1.45);
+    transform-origin: bottom right;
+      margin-top: -10%;
  }
+ 
+ #section2Bio{
+  display:none;
+ }
+ 
  #section2BioMobile{
-  font-size:small;
-  display:block,
+  display:block;
+  margin-right: 5%;
+    margin-left: 5%;
+    font-size: small;
+ }
+ 
+ 
+ #mainPageSectionTwoHeader{
+    display: block;
+    width: 30%;
+    position: absolute;
+    padding-left: 55%;
+    padding-top: 4%;
+      margin-top: 7%;
  }
  
 }
