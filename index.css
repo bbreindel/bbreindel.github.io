@@ -168,6 +168,10 @@ img.section3Icon{
 
 #mainPageSectionTwo{
   background-color:white;
+  display:none;
+}
+#mainPageSectionFour{
+  display:none;
 }
 
 #mainPageSectionThree{
@@ -180,6 +184,7 @@ img.section3Icon{
 -moz-background-size: cover;
 -o-background-size: cover;
  padding: none;
+ display:none;
 }
 
 h3{
