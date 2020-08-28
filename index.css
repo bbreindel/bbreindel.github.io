@@ -78,7 +78,7 @@ font-family: 'Lato', sans-serif;
  width:100%;
  height:100%;
  margin:0;
- background: url('cloud.jpg');
+ background: url('cloud.png');
  animation-name: cloud_animation;
  animation-direction: alternate;
  animation-duration: 90s;
