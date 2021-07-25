@@ -371,11 +371,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .carousel-container {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  position: absolute;
-  top: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    left: 55px;
+    right: 55px;
 }
 
 #hero .carousel-content {
@@ -493,9 +495,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 992px) {
-  #hero .carousel-container {
-    top: 58px;
-  }
+
   #hero .carousel-content h2 {
     margin-bottom: 15px;
     font-size: 22px;
