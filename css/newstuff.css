@@ -167,7 +167,7 @@ h1#successfulMessage{
  background-color:grey;
  color: white;
  width:100%;
- position:absolute;
+ 
  top:95%;
 }
 
@@ -283,4 +283,8 @@ h1#successfulMessage{
     right: 140px;
     width: 110px;
     height: 36px;
+}
+
+.portfolio-container{
+    text-align:center;
 }
