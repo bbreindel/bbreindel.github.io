@@ -278,7 +278,7 @@ h1#successfulMessage{
 }
 
 
-@media only screen and (max-width: 600px) and (orientation: portrait) {
+@media only screen and (max-width: 900px) {
 
 
     #section2Bio {
