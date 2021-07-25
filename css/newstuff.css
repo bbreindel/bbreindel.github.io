@@ -114,19 +114,7 @@
 		text-align: center;	
 		}
 		
-		form{
- background-color:#ABD278;
- border:4px;
- width:50%;
- height:50%;
- border-style:solid;
- border-color:black;
- text-align:center;
- display:inline-block;
- padding: 50px;
- border-radius:25px;
- box-shadow:11px 11px 20px 0px black;
-}
+
 		#submitButtonFormButton{
  width:50%;
  background-color:gainsboro;
