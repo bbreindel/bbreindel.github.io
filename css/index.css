@@ -1,0 +1,724 @@
+html, body{
+ text-align:center;
+ height:100vh;
+ min-height: 100%;
+ margin:0%;
+ overflow: hidden;
+font-family: 'Lato', sans-serif;
+}
+
+#fp-nav span{
+ background-color: #ABD278;
+ opacity: 0.75;
+}
+
+
+.container{
+ position: absolute;
+ top:0;
+ left:0;
+ width:100%;
+ height:100vh;
+ margin:0;
+}
+
+#toppadding{
+     height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+#mainMenuContainer{
+ /*background: url('roadRain3.jpg')no-repeat center center fixed; */
+ background: url('01.jpg')no-repeat center center fixed;
+ background-size:cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+#mainMenuContainer:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      /* background: url('roadRain3.jpg') center center; */
+ background: url('01.jpg') center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+
+
+#section4Container{
+ background: url('02.jpg');
+ background-size:cover;
+ width: 100%;
+ position: absolute;
+ height: 100%;
+ top: 0;
+ margin: 0;
+}
+
+#contactContainer{
+ background: url('02.jpg');
+ background-size:cover;
+}
+
+.cloud{
+ position: absolute;
+ top:0;
+ left:0;
+ width:100%;
+ height:100%;
+ margin:0;
+ background: url('cloud.png');
+ animation-name: cloud_animation;
+ animation-direction: alternate;
+ animation-duration: 90s;
+ animation-iteration-count: infinite;
+ animation-timing-function: linear;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+ #mainMenuCloud{
+   opacity:0.50;
+}
+
+
+@keyframes cloud_animation{
+  0% {
+    background-position:0 0;
+  }
+  /* Adding a step in the middle */
+  100% {
+    background-position:100% 100%;
+  }
+}
+
+
+nav.topMenu{
+  background-color:#348AA7;
+  width:100%;
+  height:30px; 
+  position:fixed; 
+  z-index:1000; 
+  text-align:center;
+  display:flex;
+  justify-content:space-around;
+ }
+
+a{
+ color:white;
+ text-decoration:none;
+ position:absolute;
+ font-family: unset;
+ top:15%;
+}
+
+a:hover{
+ opacity: 0.5;
+}
+
+#menuHomeLink, #footCopyright{
+ left:28%;
+}
+
+#menuContactLink, #footFYI{
+ left:58%;
+}
+
+#frontPageNameH2{
+ font-size: x-large;
+}
+
+#frontPageName{
+ padding-top: 20%;
+ color: white;
+ font-size: 2em;
+ display: flex;
+ flex-direction: column;
+ text-align:center;
+}
+
+.frontPageNameH{
+ margin:unset;
+ width: fit-content;
+ align-self: center;
+ background-color:black;
+ opacity: 0.8;
+}
+
+img#myMainPagePic{
+ width: 45%;
+}
+
+img.section3Icon{
+ width: 25%;
+}
+
+#mainPageSectionTwo{
+  background-color:white;
+  display:none;
+}
+#mainPageSectionFour{
+  display:none;
+}
+
+#mainPageSectionThree{
+ /*background-color:#BCE784; */
+ width:100%;
+ height:100vh;
+  background: url('pc3.jpg')no-repeat center center fixed;
+ background-size:cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+ padding: none;
+ display:none;
+}
+
+h3{
+ color:darkslategrey;
+}
+
+h2{
+ color:#ABD278;
+}
+
+form{
+ background-color:#ABD278;
+ border:4px;
+ width:50%;
+ height:50%;
+ border-style:solid;
+ border-color:black;
+ text-align:center;
+ display:inline-block;
+ padding: 50px;
+ border-radius:25px;
+ box-shadow:11px 11px 20px 0px black;
+}
+
+
+input{
+ height:20px;
+}
+
+.section3Section{
+ height: 70%;
+ display: inline-block;
+ width: 26%;
+ background-color: white;
+ border: solid black;
+ margin: 10px;
+ border-radius:10px;
+}
+
+#submitButtonFormButton{
+ width:50%;
+ background-color:gainsboro;
+}
+
+#submitButtonFormButton:hover{
+ color:white;
+ background-color:lightslategrey;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+#contactMeTop{
+ height:25%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+h1#successfulMessage{
+  color: white;
+}
+
+#contactMeFoot{
+ height:5%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align:center;
+ background-color:grey;
+ color: white;
+ margin-top: 5%;
+}
+
+#mainPageFoot{
+ height:5%;
+ align-items: center;
+ text-align:center;
+ background-color:grey;
+ color: white;
+ width:100%;
+ top:95%;
+}
+
+
+.contactMeFormButton{
+ width:100%
+}
+
+.contactMeFormButton:hover {
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.messageTextFormButton{
+ width:100%;
+ height: 100%;
+ resize: none;
+}
+
+td{
+ text-align:center;
+} 
+
+td.section3TableColumn{
+ text-align:center;
+} 
+
+#section2Bio, #section2BioMobile{
+ margin-top: 0.75em;
+ margin-left: 1em;
+ margin-right: 1em;
+ line-height: 1.5em;
+}
+
+table{
+ width:100%;
+ height:100%
+}
+
+table.section3Table{
+ width:100%;
+ height:90%;
+ padding: 2em;
+ padding-top:0.2em;
+ padding-bottom:0.2em;
+ font-size: smaller;
+}
+
+tr.nonMessageRow {
+ height: 5%;
+}
+
+#sect3Icon3Column{
+ padding-bottom:0.5em;
+}
+
+.headerRow, .imageRow{
+ height:5%;
+}
+#mainPageSectionTwoHeaderMobile{
+ color:#ABD278;
+ margin-top:unset;
+}
+tr.messageRow{
+ height: 100%;
+}
+
+tr.messageRow{
+ height: 100%;
+}
+
+ul.section3List{
+ padding-left:40%;
+ text-align:left;
+ margin-top: unset;
+}
+ul.section3ListMobile{
+ padding-left:40%;
+ text-align:left;
+ margin-top: unset;
+}
+
+#sectionThreeTop{
+ Height:50%;
+ background-color:lightgrey;
+ vertical-align:top;
+}
+
+#sectionThreeBottom{
+ Height:50%;
+ background-color:antiquewhite;
+ vertical-align:bottom;
+}
+
+.mobileIcontd{
+ width:30%;
+}
+
+ #page2PicDiv{
+      margin-top: 5px;
+  overflow:hidden;
+  max-height:290px;
+ }
+
+.section3TableMobile, #mainPageSectionTwoHeaderMobile, #section2BioMobile, .h4Landscape{
+
+  display:none;
+}
+
+/*  for TV size screens */
+@media only screen and (min-width: 1350px) 
+{
+img#myMainPagePic{
+ width: 40%;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
+{
+  img#myMainPagePic{
+   width: 100%;
+  }
+
+ .section3Section{
+  height:85% 
+ }
+
+.headerRowMobile{
+ height: 2%;
+}
+.imageRowMobile{
+ height: 20%;
+}
+ 
+.h4Landscape{
+ display:initial;
+ }
+ 
+img.section3Icon, .h3Normal{
+ display:none;
+}
+ 
+td.section3TableColumn{
+ text-align:center;
+ font-size: x-small;
+} 
+ 
+ #section3TableColumnList{
+  font-size:x-small;
+ }
+
+ ul{
+
+   margin:unset;
+ }
+ 
+ table.section3Table{
+  font-size: smaller;
+ }
+
+ 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ 
+   img#myMainPagePic{
+   width: 35%;
+    padding-right: 10%;
+    padding-top:16%;
+  }
+
+ #page2PicDiv{
+    -webkit-clip-path: inset(10% 250px 0 250px );
+    clip-path: inset(10% 250px 0 250px );
+    transform: scale(1.45);
+    transform-origin: bottom right;
+      margin-top: -10%;
+ }
+ 
+ #section2Bio{
+  display:none;
+ }
+ 
+ #section2BioMobile{
+  display:block;
+  margin-right: 10%;
+    margin-left: 5%;
+    font-size: small;
+ }
+ 
+ 
+ #mainPageSectionTwoHeader{
+    display: block;
+    width: 30%;
+    position: absolute;
+    padding-left: 55%;
+    padding-top: 4%;
+      margin-top: 7%;
+ }
+ 
+ .section3Section{
+  height:85% 
+ }
+
+.headerRowMobile{
+ height: 2%;
+}
+.imageRowMobile{
+ height: 20%;
+}
+ 
+img.section3Icon, .h3Normal{
+ display:none;
+}
+ 
+td.section3TableColumn{
+ text-align:left;
+ font-size: x-small;
+} 
+ 
+ #section3TableColumnList{
+  font-size:x-small;
+ }
+
+ ul{
+
+   margin:unset;
+ }
+}
+@media only screen and (max-width: 767px) and (orientation: portrait) 
+{
+  img#myMainPagePic{
+   width: 70%;
+  }
+
+  .section3Section {
+      display: block;
+      width: 90%;
+      background-color: white;
+      border: solid black;
+      margin: 3%;
+      border-radius: 10px;
+  }
+   #section3Section1{
+   height:22%;
+   margin-top:0;
+ }
+ 
+ #footCopyright{
+  left:20%;
+ }
+ 
+  #section3Section2{
+   height:26%;
+ }
+ 
+   #section3Section3{
+   height:42%;
+    margin-bottom:0;
+ }
+ 
+.section3Table, #footFYI{
+  display:none;
+
+}
+ 
+.section3TableMobile{
+
+  display:initial;
+}
+ #section2Bio{
+
+  display:block;
+  margin-right:4%;
+  margin-left: 4%;
+}
+
+.headerRowMobile{
+ height: 2%;
+}
+.imageRowMobile{
+ height: 20%;
+}
+
+img.section3IconMobile{
+ width: 50%;
+}
+ 
+td.section3TableColumnMobile{
+ text-align:left;
+ font-size: x-small;
+} 
+ 
+ h4.h4mobile{
+  margin:0;
+ }
+ 
+td.imageColumnMobile{
+ width:50%;
+ padding-top:5%;
+ }
+ 
+ #section3TableColumnList{
+  font-size:x-small;
+ }
+ 
+}
+
+@media only screen and (max-width: 600px) and (orientation: portrait) 
+{
+  img#myMainPagePic{
+   width: 50%;
+  }
+
+ #section2Bio{
+
+  display:block;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: X-small;
+}
+
+ #mainPageSectionTwoHeader{
+  display:none;
+ }
+ 
+ #mainPageSectionTwoHeaderMobile{
+  display: initial;
+  padding-right: 2%;
+  padding-left: 2%;
+ }
+
+ 
+}
+
+
+@media only screen and (min-height:600px) and (min-width: 900px) and (max-height: 800px) {
+ 
+ #page2PicDiv{
+    /*-webkit-clip-path: inset(80px 350px 0 350px );
+    clip-path: inset(90px 350px 10px 350px );
+    transform: scale(1.45);
+    transform-origin: bottom right;
+    height:40%; */
+    text-align: left;
+ }
+ 
+  #mainPageSectionTwoHeader{
+      margin-top: unset;
+ }
+ 
+ img#myMainPagePic{
+  width: 33%;
+  padding-left: 34%;
+ }
+}
+
+@media only screen and (min-width: 600px) and (max-height: 580px) {
+ 
+ img#myMainPagePic{
+  width: 25%;
+  margin-top:-8px;
+     padding-right: 10%;
+    padding-top:16%;
+  }
+
+ #page2PicDiv{
+    -webkit-clip-path: inset(10% 250px 0 250px );
+    clip-path: inset(10% 250px 0 250px );
+    transform: scale(1.45);
+    transform-origin: bottom right;
+      margin-top: -10%;
+ }
+ 
+ #section2Bio{
+  display:none;
+ }
+ 
+ #section2BioMobile{
+  display:block;
+  margin-right: 5%;
+    margin-left: 5%;
+    font-size: small;
+ }
+ 
+ 
+ #mainPageSectionTwoHeader{
+    display: block;
+    width: 30%;
+    position: absolute;
+    padding-left: 55%;
+    padding-top: 4%;
+      margin-top: 7%;
+ }
+ 
+}
+
+
+/* @media only screen and (max-width: 1280px) and (orientation: landscape) 
+{
+  img#myMainPagePic{
+   width: 100%;
+  }
+
+ .section3Section{
+  height:85% 
+ }
+
+.headerRowMobile{
+ height: 2%;
+}
+.imageRowMobile{
+ height: 20%;
+}
+ 
+.h4Landscape{
+ display:initial;
+ }
+ 
+img.section3Icon, .h3Normal{
+ display:none;
+}
+ 
+td.section3TableColumn{
+ text-align:left;
+ font-size: x-small;
+} 
+ 
+ #section3TableColumnList{
+  font-size:x-small;
+ }
+
+ ul{
+
+   margin:0;
+ }
+
+ 
+} */
+
+
+
+
