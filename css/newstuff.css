@@ -1,3 +1,28 @@
+#slide1 {
+    background-image: url('/images/roadRain3.jpg');
+}
+
+#slide2 {
+    background-image: url('/images/01.jpg');
+}
+
+#slide3 {
+    background-image: url('/images/fall2.jpg');
+}
+
+.slideH2 {
+    color: black;
+    background: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+.slideDiv {
+    top: 15%;
+    position: inherit;
+    opacity: 0.5;
+}
+
 @keyframes caretBlink {
     from { opacity: 1.0; }
     to { opacity: 0.0; }
