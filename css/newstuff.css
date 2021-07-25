@@ -148,15 +148,16 @@ h1#successfulMessage{
  margin-top: 5%;
 }
 
-#mainPageFoot{
- height:5%;
- align-items: center;
- text-align:center;
- background-color:grey;
- color: white;
- width:100%;
- 
- top:95%;
+#mainPageFoot {
+    height: 5%;
+    align-items: center;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    top: 95%;
 }
 
 
