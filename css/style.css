@@ -496,14 +496,20 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 992px) {
 
-  #hero .carousel-content h2 {
-    margin-bottom: 15px;
-    font-size: 22px;
-  }
+    #section2BioDiv{
+        font-size:30px;
+
+    }
+    #hero .carousel-content h2 {
+        margin-bottom: 15px;
+        font-size: 36px;
+    }
   #hero .carousel-content p {
-    font-size: 15px;
+    font-size: 30px;
   }
-}
+    #hero .btn-get-started {
+        font-size: 30px;
+    }
 
 @media (max-height: 500px) {
   #hero {

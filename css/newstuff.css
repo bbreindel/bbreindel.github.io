@@ -307,10 +307,3 @@ h1#successfulMessage{
 }
 
 
-@media only screen and (max-width: 900px) and (orientation: portrait) {
-
-
-    #section2BioDiv {
-        font-size: xx-large;
-    }
-}
