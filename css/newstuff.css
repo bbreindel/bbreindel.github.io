@@ -31,12 +31,12 @@ p {
     text-indent: 30px;
 }
 
-#sampleHead{
+.sampleHead{
     text-align:center;
     padding-top:15%;
 }
 
-#techPortalPic1{
+.samplePics{
     width:80%;
     padding: 10%;
     padding-top: 0;
