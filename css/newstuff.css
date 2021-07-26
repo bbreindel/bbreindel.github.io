@@ -7,6 +7,10 @@
 }
 
 #slide3 {
+    background-image: url('/images/s2.jpg');
+}
+
+#slide4 {
     background-image: url('/images/s7.jpg');
 }
 
