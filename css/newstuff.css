@@ -27,6 +27,15 @@
     opacity: 0.5;
 }
 
+#sampleHead{
+    text-align:center;
+    padding-top:15%;
+}
+
+#sampleWordDiv {
+    padding: 5%;
+}
+
 @keyframes caretBlink {
     from { opacity: 1.0; }
     to { opacity: 0.0; }
