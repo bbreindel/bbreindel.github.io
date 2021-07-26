@@ -611,21 +611,42 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  text-align: center;
-  padding: 70px 20px 80px 20px;
-  transition: all ease-in-out 0.3s;
-  background: #fff;
+    text-align: center;
+    padding: 70px 20px 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    width: 100%;
 }
 
 .services .icon-box .icon {
   margin: 0 auto;
-  width: 100px;
-  height: 100px;
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: ease-in-out 0.3s;
   position: relative;
+}
+
+#port1 {
+    background: url(/logos/techsite.png);
+}
+
+#port2 {
+    background: url(/logos/cloud.png);
+}
+
+#port3 {
+    background: url(/logos/ticketing.png);
+}
+
+#port4 {
+    background: url(/logos/wordpress.png);
+}
+
+#port5 {
+    background: url(/logos/bookkeeping.png);
 }
 
 .services .icon-box .icon i {
