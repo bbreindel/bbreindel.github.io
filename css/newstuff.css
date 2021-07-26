@@ -27,6 +27,10 @@
     opacity: 0.5;
 }
 
+p {
+    text-indent: 30px;
+}
+
 #sampleHead{
     text-align:center;
     padding-top:15%;
